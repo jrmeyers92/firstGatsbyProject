@@ -1,9 +1,13 @@
 import React from "react"
+import "../components/Layout"
 import Layout from "../components/Layout"
-export default function Home() {
+
+const blog = () => {
   return (
     <Layout>
-      <h1>Hello From Gatsby</h1>
+      <h1>This is our blog page</h1>
     </Layout>
   )
 }
+
+export default blog
